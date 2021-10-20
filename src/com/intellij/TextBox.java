@@ -5,9 +5,13 @@ import org.w3c.dom.Text;
 public class TextBox extends UIControl {
     private String text = "";
 
-    public TextBox() {
-        super(true);
-        System.out.println("TextBox");
+//    public TextBox() {
+//        super(true);
+
+
+    @Override
+    public void render() {
+        System.out.println("Render textbox");
     }
 
     @Override
